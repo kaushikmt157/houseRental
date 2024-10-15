@@ -1,0 +1,11 @@
+{
+    "name": "houserental",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "concurrently \"yarn --cwd Backend start\" \"yarn --cwd Frontend start\"",
+      "build": "concurrently \"yarn --cwd Backend build\" \"yarn --cwd Frontend build\""
+    },
+    "dependencies": {
+      "concurrently": "^7.0.0" 
+    }
+  }
